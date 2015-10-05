@@ -1,0 +1,47 @@
+D:\PRATIK\ERPSYS\ERPSYS\bin\Debug\ERPSYS.exe
+D:\PRATIK\ERPSYS\ERPSYS\bin\Debug\ERPSYS.pdb
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.ERPMaster.resources
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.Properties.Resources.resources
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.exe
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.pdb
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.frmlogin.resources
+D:\PRATIK\ERPSYS\ERPSYS\obj\x86\Debug\ERPSYS.frmUserMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.exe.config
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.exe
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.pdb
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.exe
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.pdb
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.ERPMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmcompselect.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmlogin.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.Properties.Resources.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmcompanyMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmGroupMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmhelp.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmregistration.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.MsgBox.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmItemMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmStockGroupMaster.resources
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.csprojResolveAssemblyReference.cache
+D:\PRATIK\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.csproj.GenerateResource.Cache
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.exe.config
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.exe
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.pdb
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.csprojResolveAssemblyReference.cache
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmcompanyMaster.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmhelp.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmcompselect.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmGroupMaster.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmItemMaster.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmregistration.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmlogin.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.ERPMaster.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.frmStockGroupMaster.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.MsgBox.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.Properties.Resources.resources
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.csproj.GenerateResource.Cache
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.exe
+D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.pdb
