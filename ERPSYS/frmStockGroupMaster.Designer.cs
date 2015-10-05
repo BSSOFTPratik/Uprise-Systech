@@ -220,6 +220,7 @@
             this.btnsearch.TabIndex = 32;
             this.btnsearch.Text = "Search";
             this.btnsearch.UseVisualStyleBackColor = true;
+            this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
             // panelhelp
             // 

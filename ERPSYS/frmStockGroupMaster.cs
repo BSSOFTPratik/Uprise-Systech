@@ -146,5 +146,29 @@ namespace ERPSYS
                 btnsave.Focus();
             }
         }
+
+        private void btnsearch_Click(object sender, EventArgs e)
+        {
+            panelhelp.Visible = true;
+
+            //frmhelp help = new frmhelp();
+            string str = "select ID,StockGroupName,GroupType,UnderGroup from StockGroupMaster";
+            //help.qc = str;
+            string c = "select column_Name = 'GroupName',column_name = 'GroupType',column_name = 'UnderGroup'from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME ='Company_Master' ";
+            //help.qc1 = c;
+            //help.ShowDialog();
+            DataTable dt11 = clsdb.selectdata(c); // Data Retrive For Column
+            if (dt11.Rows.Count > 0)
+            {
+                for (int i = 0; i < dt11.Columns.Count; i++)
+                {
+                    cmbsearch.Items.Add(dt11.Rows[0][i].ToString());
+                }
+                cmbsearch.SelectedIndex = 0;                // Data Retrive For Searchbox Column
+            }
+            dt = clsdb.selectdata(str); // Data Fill in to Gride 
+            GridView1.DataSource = dt;
+            cmbsearch.Focus();
+        }
     }
 }
