@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC8F4B0A-AE3F-4BFD-A2C5-67BBAE62F11C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERPSYS</RootNamespace>
+    <AssemblyName>ERPSYS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsDatabase.cs" />
+    <Compile Include="CompanyMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyMaster.Designer.cs">
+      <DependentUpon>CompanyMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhelp.Designer.cs">
+      <DependentUpon>frmhelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcompselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcompselect.Designer.cs">
+      <DependentUpon>frmcompselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGroupMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGroupMaster.Designer.cs">
+      <DependentUpon>frmGroupMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemMaster.Designer.cs">
+      <DependentUpon>frmItemMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmregistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmregistration.Designer.cs">
+      <DependentUpon>frmregistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ERPMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ERPMaster.Designer.cs">
+      <DependentUpon>ERPMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockGroupMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockGroupMaster.Designer.cs">
+      <DependentUpon>frmStockGroupMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerPacks.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CompanyMaster.resx">
+      <DependentUpon>CompanyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhelp.resx">
+      <DependentUpon>frmhelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcompselect.resx">
+      <DependentUpon>frmcompselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGroupMaster.resx">
+      <DependentUpon>frmGroupMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemMaster.resx">
+      <DependentUpon>frmItemMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmregistration.resx">
+      <DependentUpon>frmregistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ERPMaster.resx">
+      <DependentUpon>ERPMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockGroupMaster.resx">
+      <DependentUpon>frmStockGroupMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgBox.resx">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_marknelson_conistonjetty_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy of login.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\151.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Not Always on Top.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy of bssoft_logo_Small.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
