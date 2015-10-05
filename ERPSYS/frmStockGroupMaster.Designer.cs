@@ -143,7 +143,6 @@
             this.txtsgroupname.Name = "txtsgroupname";
             this.txtsgroupname.Size = new System.Drawing.Size(198, 29);
             this.txtsgroupname.TabIndex = 41;
-            this.txtsgroupname.TextChanged += new System.EventHandler(this.txtsgroupname_TextChanged);
             this.txtsgroupname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtsgroupname_KeyPress);
             // 
             // label2
@@ -179,6 +178,7 @@
             this.btnexit.TabIndex = 36;
             this.btnexit.Text = "Exit";
             this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // btnDelete
             // 
@@ -189,6 +189,7 @@
             this.btnDelete.TabIndex = 35;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnsave
             // 
@@ -210,6 +211,7 @@
             this.btnclear.TabIndex = 33;
             this.btnclear.Text = "Clear";
             this.btnclear.UseVisualStyleBackColor = true;
+            this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
             // 
             // btnsearch
             // 
@@ -244,6 +246,7 @@
             this.GridView1.Name = "GridView1";
             this.GridView1.Size = new System.Drawing.Size(680, 150);
             this.GridView1.TabIndex = 22;
+            this.GridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridView1_CellDoubleClick_1);
             // 
             // txtsearch
             // 
@@ -252,6 +255,7 @@
             this.txtsearch.Name = "txtsearch";
             this.txtsearch.Size = new System.Drawing.Size(258, 29);
             this.txtsearch.TabIndex = 1;
+            this.txtsearch.TextChanged += new System.EventHandler(this.txtsearch_TextChanged);
             // 
             // label6
             // 
@@ -293,7 +297,6 @@
             this.Controls.Add(this.label12);
             this.Name = "frmStockGroupMaster";
             this.Text = "frmStockGroupMaster";
-            this.Load += new System.EventHandler(this.frmStockGroupMaster_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

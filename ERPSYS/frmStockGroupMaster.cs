@@ -32,12 +32,7 @@ namespace ERPSYS
         public frmStockGroupMaster()
         {
             InitializeComponent();
-        }
-
-        private void frmStockGroupMaster_Load(object sender, EventArgs e)
-        {
-           
-        }
+        }      
 
         private void btnsave_Click(object sender, EventArgs e)
         {
@@ -95,7 +90,7 @@ namespace ERPSYS
             panelhelp.Visible = false;
             btnsave.Text = "Save";
 
-            txtID.Text = clsdb.maxid("ID", "Group_Master");
+            txtID.Text = clsdb.maxid("ID", "StockGroupMaster");
             cn.Close();
         }
 
@@ -114,22 +109,14 @@ namespace ERPSYS
                 return false;
             }
             return true;
-        }
-
-
-        
+        }        
         private void txtsgroupname_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
                 cmbgrouptype.Focus();
             }
-        }
-
-        private void txtsgroupname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        }             
 
         private void cmbgrouptype_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -154,7 +141,7 @@ namespace ERPSYS
             //frmhelp help = new frmhelp();
             string str = "select ID,StockGroupName,GroupType,UnderGroup from StockGroupMaster";
             //help.qc = str;
-            string c = "select column_Name = 'GroupName',column_name = 'GroupType',column_name = 'UnderGroup'from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME ='Company_Master' ";
+            string c = "select column_Name = 'StockGroupName',column_name = 'GroupType',column_name = 'UnderGroup'from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME ='StockGroupMaster' ";
             //help.qc1 = c;
             //help.ShowDialog();
             DataTable dt11 = clsdb.selectdata(c); // Data Retrive For Column
@@ -170,5 +157,52 @@ namespace ERPSYS
             GridView1.DataSource = dt;
             cmbsearch.Focus();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MsgBox.Show("Are You Sure You Want To Delete This Record?", "BS Acount Manager", MsgBox.Buttons.YesNo, MsgBox.Icon.Question, MsgBox.AnimateStyle.FadeIn);
+            if (result == DialogResult.Yes)
+            {
+                string del = "delete from StockGroupmaster where  ID='" + txtID.Text + "'";
+                clsdb.Ins_Up_Del(del);
+                clear();
+            }
+            if (result == DialogResult.No)
+            {
+                clear();
+            }
+        }
+
+        private void txtsearch_TextChanged(object sender, EventArgs e)
+        {
+            string str = "select ID,StockGroupName,GroupType,UnderGroup from StockGroupMaster";
+            String qq = str + " where " + cmbsearch.SelectedItem.ToString() + " like '%" + txtsearch.Text + "%'";
+            DataTable dtqq = clsdb.selectdata(qq);
+            if (dtqq.Rows.Count > 0)
+            {
+                GridView1.DataSource = dtqq;
+            }
+        }       
+
+        private void GridView1_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            txtID.Text = GridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtsgroupname.Text = GridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            cmbgrouptype.Text = GridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txtundergroup.Text = GridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            panelhelp.Visible = false;
+            btnsave.Text = "Update";
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            clear();
+        }
+
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

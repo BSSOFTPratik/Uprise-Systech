@@ -102,6 +102,7 @@
             this.GridView1.Name = "GridView1";
             this.GridView1.Size = new System.Drawing.Size(680, 150);
             this.GridView1.TabIndex = 22;
+            
             this.GridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridView1_CellDoubleClick);
             // 
             // txtsearch
@@ -256,7 +257,7 @@
             this.txtgroupname.Name = "txtgroupname";
             this.txtgroupname.Size = new System.Drawing.Size(198, 29);
             this.txtgroupname.TabIndex = 7;
-            this.txtgroupname.TextChanged += new System.EventHandler(this.txtgroupname_TextChanged_1);
+            
             this.txtgroupname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtgroupname_KeyPress);
             // 
             // label5

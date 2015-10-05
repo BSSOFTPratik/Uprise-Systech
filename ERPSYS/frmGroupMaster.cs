@@ -252,16 +252,6 @@ namespace ERPSYS
             {
                 GridView1.DataSource = dtqq;
             }
-        }
-
-        private void txtgroupname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtgroupname_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
+        }        
     }   
 }
