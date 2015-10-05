@@ -45,3 +45,6 @@ D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.Propertie
 D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\obj\x86\Debug\ERPSYS.csproj.GenerateResource.Cache
 D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.exe
 D:\Software source\Pratik\ERPSYSTEM_PRATIK\ERPSYS\bin\Debug\ERPSYS.pdb
+C:\Users\Shree\Source\Repos\Uprise-Systech\ERPSYS\bin\Debug\ERPSYS.exe.config
+C:\Users\Shree\Source\Repos\Uprise-Systech\ERPSYS\obj\x86\Debug\ERPSYS.exe
+C:\Users\Shree\Source\Repos\Uprise-Systech\ERPSYS\obj\x86\Debug\ERPSYS.pdb

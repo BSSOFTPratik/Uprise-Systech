@@ -55,6 +55,12 @@
     <Compile Include="CompanyMaster.Designer.cs">
       <DependentUpon>CompanyMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUnitMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnitMaster.Designer.cs">
+      <DependentUpon>frmUnitMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmhelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CompanyMaster.resx">
       <DependentUpon>CompanyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnitMaster.resx">
+      <DependentUpon>frmUnitMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmhelp.resx">
       <DependentUpon>frmhelp.cs</DependentUpon>
